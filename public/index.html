@@ -12,7 +12,7 @@
 
   <!--Let browser know website is optimized for mobile-->
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Custom Materialize Theme</title>
+  <title>skyPlanet | travel with the Clouds</title>
 </head>
 
 <body>
@@ -35,10 +35,10 @@
               <a href="#search">Search</a>
             </li>
             <li>
-              <a href="#home">Popular Places</a>
+              <a href="#popular">Popular Places</a>
             </li>
             <li>
-              <a href="#home">Gallery</a>
+              <a href="#home">Photos</a>
             </li>
             <li>
               <a href="#home">Contact</a>
@@ -99,7 +99,8 @@
   </section>
 
  <!-- Search  -->
-<section class="section section-search red lighten-2 white-text center">
+<section class="section section-search red lighten-2 white-text center" id="search">
+
   <div class="container">
     <div class="row">
       <div class="col s12">
@@ -119,7 +120,7 @@
       <div class="col s12 m4">
         <div class="card-panel">
           <i class="material-icons large red-text text-lighten-2">beach_access</i>
-          <h4>Activity Guide</h4>
+          <h4>Activity Guides</h4>
           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores, nostrum. Porro, facere.</p>
         </div>
       </div>
@@ -141,12 +142,124 @@
   </div>
 </section>
 
+<!-- popular places  -->
+<section class="section section-popular">
+  <div class="container">
+    <div class="row">
+      <h4 class="center">
+        <span class="red-text text-lighten-2" id="popular">Popular</span>
+        Places
+      </h4>
+      <div class="col s12 m4">
+        <div class="card">
+          <div class="card-image">
+            <img src="img/festival.jpg" alt="" class="">
+            <span class="card-title">Cancun, Mexico</span>
+          </div>
+          <div class="card-content">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque officiis voluptates esse aut vitae iure optio voluptate aperiam itaque recusandae.</p>
+          </div>
+        </div>
+      </div>
+        <div class="col s12 m4">
+          <div class="card">
+            <div class="card-image">
+              <img src="img/turtle.jpg" alt="" class="">
+              <span class="card-title">Hawaii Islands</span>
+            </div>
+            <div class="card-content">
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque officiis voluptates esse aut vitae iure optio voluptate aperiam itaque recusandae.</p>
+            </div>
+          </div>
+      </div>
+      <div class="col s12 m4">
+        <div class="card">
+          <div class="card-image">
+            <img src="img/italy.jpg" alt="" class="">
+            <span class="card-title">Italy</span>
+          </div>
+          <div class="card-content">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque officiis voluptates esse aut vitae iure optio voluptate aperiam itaque recusandae.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col s12 center">
+        <a href="#contact" class="btn btn-large grey lighten-1">
+          <i class="material-icons left">send</i>
+          Contact for booking
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
 
+<!-- Follow footer  -->
+<section class="section section-follow red lighten-2 white-text center">
+  <div class="container">
+    <div class="row">
+      <div class="col s12">
+        <h5 style="italics">Follow skyPlanet</h5>
+        <p>For Updates and Special Promotions</p>
+        <a href="https://telegram.org" target="_blank" class="white-text">
+          <i class="fab fa-telegram fa-4x"></i>
+        </a>
+        <a href="https://twitter.com" target="_blank" class="white-text">
+          <i class="fab fa-twitter fa-4x"></i>
+        </a>
+        <a href="https://youtube.com" target="_blank" class="white-text">
+          <i class="fab fa-youtube fa-4x"></i>
+        </a>
+        <a href="https://instagram.com" target="_blank" class="white-text">
+          <i class="fab fa-instagram fa-4x"></i>
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- gallery section  -->
+<section class="section section-gallery">
+  <div class="container">
+    <h4 class="center">
+      <span class="red-text text-lighten-2" id="gallery">Photo</span>
+      Gallery
+    </h4>
+    <div class="row">
+      <div class="col s12 m3">
+        <img class="materialboxed responsive-img" src="http://source.unsplash.com/400x500/?beach" alt="">
+      </div>
+      <div class="col s12 m3">
+        <img class="materialboxed responsive-img" src="http://source.unsplash.com/400x500/?hotel" alt="">
+      </div>
+      <div class="col s12 m3">
+        <img class="materialboxed responsive-img" src="http://source.unsplash.com/400x500/?airport" alt="">
+      </div>
+      <div class="col s12 m3">
+        <img class="materialboxed responsive-img" src="http://source.unsplash.com/400x500/?vacation" alt="">
+      </div>
+    </div>
+    <div class="row">
+      <div class="col s12 m3">
+        <img class="materialboxed responsive-img" src="http://source.unsplash.com/400x500/?model" alt="">
+      </div>
+      <div class="col s12 m3">
+        <img class="materialboxed responsive-img" src="http://source.unsplash.com/400x500/?tropical" alt="">
+      </div>
+      <div class="col s12 m3">
+        <img class="materialboxed responsive-img" src="http://source.unsplash.com/400x500/?water" alt="">
+      </div>
+      <div class="col s12 m3">
+        <img class="materialboxed responsive-img" src="http://source.unsplash.com/400x500/?travel" alt="">
+      </div>
+    </div>
+  </div>
+</section>
 
   <!--Import jQuery before materialize.js-->
   <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
   <script type="text/javascript" src="js/materialize.min.js"></script>
   <script type="text/javascript" src="js/index.js"></script>
 </body>
-
 </html>

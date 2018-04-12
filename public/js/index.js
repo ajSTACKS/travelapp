@@ -22,6 +22,7 @@ $(document).ready(function () {
       "Maui": null,
       "The Bahamas": null,
       "New York City": null,
+      "Venice Italy": null,
     }
   });
 });
