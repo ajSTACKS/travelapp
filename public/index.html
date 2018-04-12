@@ -20,7 +20,10 @@
     <nav class="rgb(219, 32, 102)">
       <div class="container">
         <div class="nav-wrapper">
-          <a href="#home" class="brand-logo"><i class="material-icons">flight</i>skyPlanet</a>
+          <a href="#home" class="brand-logo">
+            <i class="material-icons" style="font-size: 34px; margin-right: 1px">flight</i>
+            skyPlanet
+           </a>
           <a href="" data-activates="mobile-nav" class="button-collapse">
             <i class="material-icons">menu</i>
           </a>
@@ -40,15 +43,13 @@
             <li>
               <a href="#home">Contact</a>
             </li>
-
           </ul>
         </div>
-
       </div>
-
     </nav>
-
   </div>
+
+  <!-- mobile nav bar -->
   <ul class="side-nav" id="mobile-nav">
     <li>
       <a href="#home">home</a>
@@ -82,15 +83,15 @@
         <img src="img/pic1.jpg" alt="">
         <div class="caption center-align">
           <h2>Take your Dream Vacation</h2>
-          <h5 class="light grey-text text-lighten-2 hide-on-small-only">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam voluptate beatae aliquid cum, dignissimos sint.</h5>
+          <h5 class="light grey-text text-lighten-2 hide-on-small-only">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam voluptate beatae aliquid yiht, dignissimos sint.</h5>
           <a href="#" class="#e57373 red lighten-2 btn btn-large">Learn More</a>
         </div>
       </li>
       <li>
         <img src="img/pic2.jpg" alt="">
         <div class="caption left-align">
-          <h2>Single & Group Getaways</h2>
-          <h5 class="light grey-text text-lighten-2 hide-on-small-only">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam voluptate beatae aliquid cum, dignissimos sint.</h5>
+          <h2>Subscribe for Member Pricing</h2>
+          <h5 class="light grey-text text-lighten-2 hide-on-small-only">Unlock an extra 10% or more off select hotels</h5>
           <a href="#" class="#e57373 red lighten-2 btn btn-large">Learn More</a>
         </div>
       </li>
@@ -104,13 +105,42 @@
       <div class="col s12">
         <h3>Destinations</h3>
         <div class="input-field">
-          <input type="text" class="white-textautocomplete" placeholder=" Search your next destination" id="automcomplete-input">
+          <input type="text" class="white white-text autocomplete" placeholder=" Search your next destination" id="autocomplete-input">
         </div>
       </div>
     </div>
   </div>
-
 </section>
+
+<!-- Icon boxes  -->
+<section class="section section-icons grey lighten-4 center">
+  <div class="container">
+    <div class="row">
+      <div class="col s12 m4">
+        <div class="card-panel">
+          <i class="material-icons large red-text text-lighten-2">beach_access</i>
+          <h4>Activity Guide</h4>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores, nostrum. Porro, facere.</p>
+        </div>
+      </div>
+      <div class="col s12 m4">
+        <div class="card-panel">
+          <i class="material-icons large red-text text-lighten-2">airport_shuttle</i>
+          <h4>Rent a Car</h4>
+          <p>Get a shuttle from the airport, consectetur adipisicing elit. Maiores, nostrum. Porro, facere.</p>
+        </div>
+      </div>
+      <div class="col s12 m4">
+        <div class="card-panel">
+          <i class="material-icons large red-text text-lighten-2">location_on</i>
+          <h4>Map your Places</h4>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores, nostrum. Porro, facere.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
 
 
   <!--Import jQuery before materialize.js-->
@@ -129,12 +159,18 @@
         interval: 6000,
       });
 
-      // automcomplete-input
+      // autocomplete-input
       $('.autocomplete').autocomplete({
         data: {
           "Aruba": null,
           "Cancun Mexico": null,
-          
+          "Hawaii": null,
+          "Miami": null,
+          "Los Angeles": null,
+          "Jamaica": null,
+          "Maui": null,
+          "The Bahamas": null,
+          "New York City": null,
         }
       });
     });
