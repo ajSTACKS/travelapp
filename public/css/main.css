@@ -1,0 +1,22 @@
+
+
+.slider .btn {
+  margin-top: 20px;
+}
+
+
+.section-search input{
+  padding: 5px;
+  border: 0 solid ghostwhite;
+  background: #e57373 !important;
+  color: white;
+  width: 90%;
+  font-size: 28px;
+}
+
+.section-search input::placeholder {
+  text-align: justify;
+  font-size: 18px;
+  font-style: italic;
+
+}
