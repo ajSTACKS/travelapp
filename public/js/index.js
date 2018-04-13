@@ -25,4 +25,6 @@ $(document).ready(function () {
       "Venice Italy": null,
     }
   });
+
+  $('.scrollspy').scrollSpy();
 });

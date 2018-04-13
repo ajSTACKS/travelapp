@@ -15,7 +15,7 @@
   <title>skyPlanet | travel with the Clouds</title>
 </head>
 
-<body>
+<body id="home" class="scrollspy">
   <div class="navbar-fixed">
     <nav class="rgb(219, 32, 102)">
       <div class="container">
@@ -38,10 +38,10 @@
               <a href="#popular">Popular Places</a>
             </li>
             <li>
-              <a href="#home">Photos</a>
+              <a href="#gallery">Photos</a>
             </li>
             <li>
-              <a href="#home">Contact</a>
+              <a href="#contact">Contact</a>
             </li>
           </ul>
         </div>
@@ -49,26 +49,27 @@
     </nav>
   </div>
 
-  <!-- mobile nav bar -->
+                              <!-- mobile nav bar -->
   <ul class="side-nav" id="mobile-nav">
     <li>
-      <a href="#home">home</a>
+      <a href="#home">Home</a>
     </li>
     <li>
-      <a href="#search">search</a>
+      <a href="#search">Search</a>
     </li>
     <li>
-      <a href="#home">gallery</a>
+      <a href="#popular">Popular Places</a>
     </li>
     <li>
-      <a href="#home">contact</a>
+      <a href="#gallery">Photos</a>
     </li>
     <li>
-      <a href="#home">popular</a>
+      <a href="#contact">Contact</a>
     </li>
+
   </ul>
 
-  <!--section: slider-->
+                            <!--section: slider-->
   <section class="slider">
     <ul class="slides">
       <li>
@@ -98,22 +99,22 @@
     </ul>
   </section>
 
- <!-- Search  -->
-<section class="section section-search red lighten-2 white-text center" id="search">
+                             <!-- Search  -->
+<section class="section section-search red lighten-2 white-text center scrollspy" id="search" >
 
   <div class="container">
     <div class="row">
       <div class="col s12">
-        <h3>Destinations</h3>
+        <!-- <h4>Star HERE</h4> -->
         <div class="input-field">
-          <input type="text" class="white white-text autocomplete" placeholder=" Search your next destination" id="autocomplete-input">
+          <input type="text" class="white white-text autocomplete" placeholder=" Search your next destination here.." id="autocomplete-input">
         </div>
       </div>
     </div>
   </div>
 </section>
 
-<!-- Icon boxes  -->
+                            <!-- Icon boxes  -->
 <section class="section section-icons grey lighten-4 center">
   <div class="container">
     <div class="row">
@@ -142,12 +143,12 @@
   </div>
 </section>
 
-<!-- popular places  -->
-<section class="section section-popular">
+                            <!-- popular places  -->
+<section class="section section-popular scrollspy" id="popular">
   <div class="container">
     <div class="row">
       <h4 class="center">
-        <span class="red-text text-lighten-2" id="popular">Popular</span>
+        <span class="red-text text-lighten-2">Popular</span>
         Places
       </h4>
       <div class="col s12 m4">
@@ -195,7 +196,7 @@
   </div>
 </section>
 
-<!-- Follow footer  -->
+                      <!-- Follow footer  -->
 <section class="section section-follow red lighten-2 white-text center">
   <div class="container">
     <div class="row">
@@ -219,11 +220,11 @@
   </div>
 </section>
 
-<!-- gallery section  -->
-<section class="section section-gallery">
+                      <!-- gallery section  -->
+<section class="section section-gallery scrollspy" id="gallery">
   <div class="container">
     <h4 class="center">
-      <span class="red-text text-lighten-2" id="gallery">Photo</span>
+      <span class="red-text text-lighten-2">Photo</span>
       Gallery
     </h4>
     <div class="row">
@@ -234,10 +235,10 @@
         <img class="materialboxed responsive-img" src="http://source.unsplash.com/400x500/?hotel" alt="">
       </div>
       <div class="col s12 m3">
-        <img class="materialboxed responsive-img" src="http://source.unsplash.com/400x500/?airport" alt="">
+        <img class="materialboxed responsive-img" src="http://source.unsplash.com/400x500/?beaches" alt="">
       </div>
       <div class="col s12 m3">
-        <img class="materialboxed responsive-img" src="http://source.unsplash.com/400x500/?vacation" alt="">
+        <img class="materialboxed responsive-img" src="http://source.unsplash.com/400x500/?vacations" alt="">
       </div>
     </div>
     <div class="row">
@@ -245,16 +246,62 @@
         <img class="materialboxed responsive-img" src="http://source.unsplash.com/400x500/?model" alt="">
       </div>
       <div class="col s12 m3">
-        <img class="materialboxed responsive-img" src="http://source.unsplash.com/400x500/?tropical" alt="">
+        <img class="materialboxed responsive-img" src="http://source.unsplash.com/400x500/?snow" alt="">
       </div>
       <div class="col s12 m3">
-        <img class="materialboxed responsive-img" src="http://source.unsplash.com/400x500/?water" alt="">
+        <img class="materialboxed responsive-img" src="http://source.unsplash.com/400x500/?fun" alt="">
       </div>
       <div class="col s12 m3">
-        <img class="materialboxed responsive-img" src="http://source.unsplash.com/400x500/?travel" alt="">
+        <img class="materialboxed responsive-img" src="http://source.unsplash.com/400x500/?women" alt="">
       </div>
     </div>
   </div>
+</section>
+
+                      <!-- contact area -->
+<section class="section section-contact scrollspy" id="contact">
+  <div class="container">
+    <div class="row">
+      <div class="col s12 m6">
+        <div class="card-panel red lighten-2 white-text center">
+          <i class="material-icons medium">mail_outline</i>
+          <h5>Email for Support</h5>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio, deleniti, accusantium. Vitae, ut, consequuntur. Maxime esse, unde id nulla perspiciatis.</p>
+        </div>
+        <ul class="collection with-header">
+          <li class="collection-header">
+            <h4>location</h4>
+          </li>
+          <li class="collection-item">skyPlanet Labs</li>
+          <li class="collection-item">808 Paradise Way.</li>
+          <li class="collection-item">Seattle,WA 98206</li>
+        </ul>
+      </div>
+      <div class="col s12 m6">
+        <div class="card-panel grey lighten-1 white-text">
+          <h4>Please fill out this form</h4>
+          <div class="input-field">
+            <input type="text" placeholder="Name" id="name">
+            <label for="name"></label>
+          </div>
+          <div class="input-field">
+            <input type="text" placeholder="Email" id="email">
+            <label for="email"></label>
+          </div>
+          <div class="input-field">
+            <textarea name="message" placeholder="Message" class="materialize-textarea" id="message"></textarea>
+            <label for="message"></label>
+          </div>
+          <input type="submit" value="Submit" class="#e57373 red lighten-2 btn btn-large">
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+                      <!-- footer area -->
+<section class="section section-footer red lighten-2 white-text center">
+  <p class="flow-text">skyPlanet Labs &copy; 2018</p>
 </section>
 
   <!--Import jQuery before materialize.js-->
